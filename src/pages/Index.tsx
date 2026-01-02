@@ -4,6 +4,7 @@ import { MSRFPanel } from "@/components/MSRFPanel";
 import { PosturePanel } from "@/components/PosturePanel";
 import { ChildProtectionPanel } from "@/components/ChildProtectionPanel";
 import { SystemStatusBar } from "@/components/SystemStatusBar";
+import { EyeScanner } from "@/components/EyeScanner";
 import { useBiometricData } from "@/hooks/useBiometricData";
 import { Button } from "@/components/ui/button";
 import { ToggleLeft, ToggleRight } from "lucide-react";
@@ -21,6 +22,17 @@ const Index = () => {
           fps={Math.round(data.cameraFps)}
           npuLoad={Math.round(data.npuLoad)}
           imuStatus={data.imuStatus}
+        />
+
+        {/* AI Eye Scanner - Full width at top */}
+        <EyeScanner
+          eyeMetrics={{
+            pupilDiameter: data.pupilDiameter,
+            blinkRate: Math.round(data.blinkRate),
+            reflexLatency: Math.round(data.reflexLatency),
+            desiScore: data.desiValue,
+            msrfLevel: data.msrfValue,
+          }}
         />
 
         {/* Main panels grid */}

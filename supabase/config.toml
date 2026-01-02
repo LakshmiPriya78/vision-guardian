@@ -1,0 +1,4 @@
+project_id = "rfacisumavvsjzbmyejt"
+
+[functions.eye-analysis]
+verify_jwt = false
