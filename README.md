@@ -1,7 +1,7 @@
 # Welcome to your Lovable project
 
 ## Project info
-
+“VisionGuard monitors eye behavior using AI. It detects whether the user is a child or adult, tracks blink rate and screen time, and automatically blocks the screen when unsafe conditions are detected to prevent eye strain and protect children.”
 **URL**: https://reflex-watch.lovable.app/
 
 ## How can I edit this code?
@@ -27,7 +27,7 @@ Follow these steps:
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd <VISIONGUARD>
 
 # Step 3: Install the necessary dependencies.
 npm i
