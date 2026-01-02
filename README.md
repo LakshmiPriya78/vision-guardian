@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+# 👁️ Vision Guardian
 
-## Project info
-“VisionGuard monitors eye behavior using AI. It detects whether the user is a child or adult, tracks blink rate and screen time, and automatically blocks the screen when unsafe conditions are detected to prevent eye strain and protect children.”
-**URL**: https://reflex-watch.lovable.app/
+**Vision Guardian** is an AI-powered vision health and safety application designed to detect whether the user is a **child or an adult**, monitor **eye health indicators (blink rate / screen time patterns)**, and **control screen access** accordingly. The goal is to protect children from excessive screen exposure and promote healthy digital habits.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚨 Problem Statement
 
-**Use Lovable**
+Children are increasingly exposed to screens for long hours, which can lead to:
 
-Simply visit the [Lovable Project](https://reflex-watch.lovable.app/) and start prompting.
+* Eye strain and fatigue
+* Reduced blink rate
+* Long-term vision problems
+* Lack of parental control over screen usage
 
-Changes made via Lovable will be committed automatically to this repo.
+Existing solutions either rely on manual controls or lack real-time vision-based intelligence.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💡 Solution
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Vision Guardian uses **camera-based detection and AI logic** to:
 
-Follow these steps:
+* Detect the user via live camera
+* Classify **Child vs Adult**
+* Monitor eye-related parameters (like blink rate / usage pattern)
+* Automatically **block or allow screen access**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <https://github.com/LakshmiPriya78>
+This ensures:
 
-# Step 2: Navigate to the project directory.
-cd <VISIONGUARD>
+* Children are protected
+* Adults retain full access
+* Eye health awareness is increased
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## ✨ Key Features
+
+* 📷 Real-time camera access
+* 👶 Child vs 🧑 Adult detection
+* 🚫 Automatic screen lock for children
+* 👁️ Eye health monitoring (blink / usage awareness)
+* 🌐 Web-based MVP (no installation required)
+
+---
+
+## 🛠️ Technologies Used
+
+* **JavaScript** – core logic
+* **HTML & CSS** – UI
+* **Web Camera API** – live camera access
+* **Lovable Platform** – MVP deployment
+* **Google-supported Web Technologies**
+* Google Technology Used:
+This project leverages Google Chrome Web APIs, including the Camera (MediaDevices) API, along with HTML5, CSS3, and JavaScript, which are part of Google’s modern web platform for real-time, browser-based vision applications.
+
+---
+
+## 🚀 Live MVP Demo
+
+🔗 **MVP Link:**
+
+```
+https://reflex-watch.lovable.app
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📂 Project Structure
 
-**Use GitHub Codespaces**
+```
+vision-guardian/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── README.md
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧪 How It Works
 
-This project is built with:
+1. User opens the web app
+2. Camera permission is requested
+3. Face is detected via camera
+4. System identifies user type (Child / Adult)
+5. Screen access is granted or blocked
+6. Eye health status is displayed
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🎯 Use Cases
 
-Simply open [Lovable](https://reflex-watch.lovable.app/) and click on Share -> Publish.
+* Parental control systems
+* Schools and digital labs
+* Child-safe devices
+* Eye health awareness tools
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🔮 Future Enhancements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Advanced ML model for age detection
+* Cloud-based user profiles
+* Mobile app version
+* Detailed eye health analytics
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 👩‍💻 Team
+
+* **Lakshmi Priya** – Developer
+* **Jethin** – Project Contributor
+
+---
+
+## 📜 License
+
+This project is created for **educational and hackathon purposes**.
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
