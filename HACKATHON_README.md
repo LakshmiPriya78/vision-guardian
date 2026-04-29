@@ -36,6 +36,7 @@ Detects:
 🎭 Deepfake attempts
 📺 Video replay attacks
 👥 Proxy candidates
+
 📊 2. Cognitive Readiness Scoring (DESI)
 The Digital Eye Strain Index (DESI) evaluates neurological readiness:
 P_D (Pupil Diameter) → Cognitive load
@@ -59,6 +60,7 @@ Instead of relying on a single signal, Vision Guardian combines:
 🎯 Head movement consistency
 😐 Micro-expression variation
 👉 This multi-layer approach significantly increases reliability
+
 ⚙️ 4. Decision Engine (Deployable Logic)
 The system doesn’t just detect — it acts:
 ✅ Live + Fit → Proceed
@@ -87,6 +89,7 @@ Execution: Browser-based (Chrome APIs + WebRTC)
 🚫 Automatic access control (block/flag/reschedule)
 📉 Live fatigue monitoring dashboard
 🎯 Use Cases (SkillFit Ecosystem)
+
 🛡️ 1. Anti-Fraud Hiring Layer
 Prevents proxy interviews in mass recruitment
 ⚙️ 2. Safety-Critical Job Screening
@@ -117,20 +120,24 @@ Final Decision
 🧑‍🏭 Industry → safer workforce deployment
 👩‍🎓 Education → healthier digital environments
 📈 Scalability
+
 Works on low-cost smartphones
 No cloud cost → highly scalable for government deployment
 Easily integrable with existing video interview platforms
 ⚖️ Compliance & Ethics
+
 Designed with privacy-first architecture
 No biometric data stored externally
 Aligns with Indian data protection and biometric guidelines
 Avoids bias by relying on physiological signals instead of language/emotion AI
 🚀 Future Enhancements
+
 🔬 Adaptive learning models for personalized baselines
 🧠 Integration with cognitive AI interview systems
 🌐 Multilingual government deployment (state-wide scaling)
 📊 Advanced analytics dashboard for recruiters
 🏆 Why Vision Guardian Wins
+
 ✅ Unique (ocular biometrics in hiring)
 ✅ Practical (deployable on-device)
 ✅ Ethical (privacy-first + bias-free)
@@ -138,4 +145,5 @@ Avoids bias by relying on physiological signals instead of language/emotion AI
 👉 It doesn’t just evaluate candidates.
 👉 It ensures the right candidate is present, authentic, and ready.
 👥 Team Vision
+
 Building trustworthy, safe, and fair AI systems for the next generation of digital governance and workforce assessment.
