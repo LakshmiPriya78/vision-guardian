@@ -1,17 +1,25 @@
 🛡️ Vision Guardian
+
 AI-Biometric Integrity & Cognitive Readiness Layer for Workforce Video Assessment
+
 🚨 Problem Statement
 With the rise of digital hiring platforms, especially in high-volume and remote recruitment:
+
 ❌ Proxy candidates & impersonation are increasing
+
 ❌ Deepfake/video replay attacks compromise integrity
+
 ❌ Fatigued candidates lead to unsafe hiring (critical for manual/technical roles)
+
 ❌ Bias in AI interviews (accent, language, tone) affects fairness
+
 👉 Current systems evaluate what candidates say, not whether they are authentic and cognitively fit
 
 https://reflex-watch.lovable.app
 
 💡 Solution: Vision Guardian
 Vision Guardian is a mobile-first, on-device AI system that adds a biometric integrity + cognitive readiness layer to video assessments using ocular signal intelligence.
+
 It ensures:
 ✅ The candidate is real (liveness detection)
 ✅ The candidate is not impersonating
@@ -32,6 +40,7 @@ Uses universal physiological signals
 🔬 1. Ocular Liveness Detection
 Tracks blink patterns, pupil response, and reflex latency
 Uses statistical timing models (not fixed constants)
+
 Detects:
 🎭 Deepfake attempts
 📺 Video replay attacks
@@ -70,6 +79,7 @@ The system doesn’t just detect — it acts:
 📱 On-Device Processing (Privacy-First)
 No cloud dependency
 Real-time inference using device hardware
+
 ⚡ Stack
 Core Engine: JavaScript
 Vision Processing: MediaPipe / TensorFlow Lite
@@ -82,6 +92,7 @@ Execution: Browser-based (Chrome APIs + WebRTC)
 🔍 Run liveness + fatigue models
 ⚖️ Generate DESI score
 🧠 Decision engine triggers action
+
 📊 Key Features
 ⚡ Near real-time processing (~30–50ms effective latency)
 🔒 100% on-device → privacy preserved
